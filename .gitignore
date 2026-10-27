@@ -1,0 +1,18 @@
+# локальная память — вне git, у каждого своя
+memory/local.md
+
+# секреты
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/netrc
+/credentials*
+/secrets*
+
+# мусор
+*.log
+.DS_Store
+.idea/
+node_modules/
